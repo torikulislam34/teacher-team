@@ -27,8 +27,11 @@ const Cart = (props) => {
             <br />
             <h3>{element2} Total:{total}</h3>
             <br />
-            <p> Name: { teacherName }
-            </p>
+            <ul>
+            <li>
+               Name: { teacherName }
+            </li>
+            </ul>
         </div>
     );
 };

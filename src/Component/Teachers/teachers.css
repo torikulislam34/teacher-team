@@ -1,7 +1,7 @@
 .team-dtail{
     text-align: center;
     border: 1px solid gray;
-    background-color: rgba(149, 250, 174, 0.76);
+    background-color: rgb(19, 3, 233);
     margin-left: 10px;
     margin-top: 20px;
     padding: 10px;
@@ -11,6 +11,8 @@
 .team-dtail img{
     width: 200px;
     height: 200px;
+    border: 1px solid gray;
+    border-radius: 85px;
     
 }
 .team-dtail:hover{
@@ -26,4 +28,7 @@
 }
 .nameStyle{
     color: rgb(187, 131, 131);
+}
+.deatils{
+    color: white;
 }

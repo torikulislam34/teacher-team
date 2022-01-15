@@ -14,10 +14,12 @@ const Teachers = (props) => {
         <div className='team-dtail'>
           <img src={img} alt="" />          
           <h2 className='nameStyle'>{name}</h2>
+          <div className='deatils'>
           <p>Age : {age}</p>         
           <p><small>Relagion : {religion}</small></p>
           <p><small>Country : {country}</small></p>
           <p><small>Salary : {salary}</small></p>
+          </div>
           <button 
           onClick ={()=>props.handelAddtoCart(props.teacher)}
           className='regular-btn'>
